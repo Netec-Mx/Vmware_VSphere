@@ -1,10 +1,12 @@
-# Nombre del laboratorio 
+# Laboratorio 1. Acceso al escritorio remoto, exploración y configuración inicial en el host ESXi y vCenter Server 
 
 ## Objetivo de la práctica:
+
 Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
+
+- Acceder al escritorio remoto (espacio de trabajo continuo)
+- Realizar la conexión, exploración y configuración del host ESXi
+- Realizar la conexión, exploración y configuración del vCenter Server
 
 ## Objetivo Visual 
 Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
@@ -14,28 +16,16 @@ Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es 
 ## Duración aproximada:
 - xx minutos.
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
-
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. Acceder al escritorio remoto (espacio de trabajo continuo).
+Paso 1. En cada uno de los laboratorios, se sugiere tener el acceso al escritorio remoto. Para esto, si no lo tiene activo en el momento, utiliza de tu sistema la herramienta de **“Conexión a escritorio remoto”** con la dirección y puerto que te proporcionará tu instructor.
 
-Paso 3. <!-- Añadir instrucción -->
+- Usuario: **vclass\Administrator**
+- Contraseña: **VMware1!**
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+A manera de ejemplo:
 
-Paso 2. <!-- Añadir instrucción -->
+![imagen1](../imagen1.png)
 
-Paso 3. <!-- Añadir instrucción -->
 
-### Resultado esperado
-En esta sección, se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
