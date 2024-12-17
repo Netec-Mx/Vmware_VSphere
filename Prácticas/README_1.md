@@ -26,6 +26,6 @@ Paso 1. En cada uno de los laboratorios, se sugiere tener el acceso al escritori
 
 A manera de ejemplo:
 
-![imagen1](../imagen1.png)
+![imagen1](../images/Imagen1.png)
 
 
