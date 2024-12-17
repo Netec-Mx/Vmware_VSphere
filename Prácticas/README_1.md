@@ -97,8 +97,30 @@ Observa que el servicio no está activo (4). Por lo tanto, da clic en **Edit NTP
 
 Paos 2. Configura en la ventana emergente: Clic en **Use Network Time Protocol (enable NTP Client)** (1).
 
-Paso 2. Selecciona **Start and stop with host** (2) y proporciona la dirección IP del NTP server: <ins>172.20.10.2</ins>(3).
+Paso 2. Selecciona **Start and stop with host** (2) y proporciona la dirección IP del NTP server: <ins>172.20.10.2</ins> (3).
 
+![imagen13](../images/Imagen13.png)
 
+Paso 3. Como resultado estará el servicio configurado, pero detenido.
 
+![imagen14](../images/Imagen14.png)
 
+Para activarlo, da clic en: **Manage** (1) > **Services** (2), **ntpd** (3). 
+
+Observa que está detenido (4). Por ello, da clic en **Start** (5).
+
+![imagen15](../images/Imagen15.png)
+
+El servicio ya está activo.
+
+![imagen16](../images/Imagen16.png)
+
+Paso 4. Enseguida click en Manage (1), click System (2), Click Time & date (3), observe que requiere actualización la interfaz, Click Refresh (5).
+
+![imagen17](../images/Imagen17.png)
+
+Finalmente se presenta ya activo NTP en la interfaz.
+
+![imagen18](../images/Imagen18.png)
+
+### Tarea 6. Asignación de Licencia al Host Esxi.
