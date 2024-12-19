@@ -28,9 +28,9 @@ Utilizar de su sistema la herramienta de “**Conexión a escritorio
 remoto**” con la dirección y puerto que le proporcionará su instructor;
 utilizar como:
 
-> Usuario: **vclass\Administrator**
+> Usuario: `vclass\Administrator`
 >
-> Contraseña: **VMware1!**
+> Contraseña: `VMware1!`
 
 Abrir una instancia de Firefox, seleccionando el acceso rápido de
 vCenter.
