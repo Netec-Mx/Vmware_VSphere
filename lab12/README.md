@@ -1,4 +1,4 @@
-# Laboratorio \# 12**
+# Laboratorio \# 12
 
 **Incremento de recursos en las VMs**
 
