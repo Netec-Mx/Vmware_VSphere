@@ -88,14 +88,14 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 En el paso **Add Storage**, seleccionar el datastore **ICM8-Datastore**
-(2), **NEXT** (3)
+(2), **NEXT** (3).
 
 <img src="./media/image7.png" style="width:4.05851in;height:3.37539in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Revisar la configuración final, aceptar **FINISH** (2)
+Revisar la configuración final, aceptar **FINISH** (2).
 
 <img src="./media/image8.png" style="width:4.07934in;height:3.37252in"
 alt="A screenshot of a computer Description automatically generated" />
