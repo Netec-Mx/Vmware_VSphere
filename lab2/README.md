@@ -1,22 +1,19 @@
-# Laboratorio \# 2
+# Práctica 2. Creación de un datacenter, creación de folders para host ESXi y máquinas virtuales
 
-**Creación de un datacenter, creación de folders para host ESXi y
-máquinas virtuales**
+## Objetivos de la práctica:
+
+- Crear un **datacenter**.
+- Creación de un folder para **host ESXi**.
+- Creación de un folder para máquinas virtuales.
+
+## Duración aproximada:
+- minutos.
+
 
 > Revisión 1.1 2024
 
-## Laboratorio \# 2
 
-**Creación de un datacenter, creación de folders para host ESXi y
-máquinas virtuales**
-
-Actividades a realizar:
-
-1.  Crear un **datacenter**
-
-2.  Creación de un folder para **host ESXi**
-
-3.  Creación de un folder para máquinas virtuales
+## Instrucciones
 
 ## Actividad \# 1
 
@@ -42,18 +39,18 @@ aparezca el menú de contexto, click en la opción: **New Datacenter**
 alt="A screenshot of a computer Description automatically generated" />
 
 Dar nombre de **Production** (1) al datacenter y avanzar con click en
-**OK** (2)
+**OK** (2).
 
 <img src="./media/image2.png" style="width:3.77079in;height:1.78906in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Se despliega el nuevo datacenter **Production**
+Se despliega el nuevo datacenter **Production**.
 
 <img src="./media/image3.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
 Aparecerá en el inventario el datacenter **Production** iniciando el
-inventario de objetos de nuestro ambiente virtual
+inventario de objetos de nuestro ambiente virtual.
 
 **  
 **
@@ -96,7 +93,7 @@ alt="A screenshot of a computer Description automatically generated" />
 Crear un folder para nuestras VMs, seleccionar el datacenter
 **Production** (1), con click derecho desplegar el menú contextual,
 seleccionar: **New Folder** (2), click en **New VM and Template Folder**
-(3)
+(3).
 
 <img src="./media/image7.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -114,26 +111,26 @@ alt="A computer screen shot of a message Description automatically generated" />
 Para ver el folder recientemente creado, seleccionar la vista de
 máquinas virtuales y plantillas (1).  
 Se despliega el **vCenter server** (2), el Datacenter **Production**
-(3), y el folder creado **Production VMs & Templates** (4)
+(3), y el folder creado **Production VMs & Templates** (4).
 
 <img src="./media/image9.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Hemos decido cambiar el nombre del datacenter, seleccionar el datacenter
+Hemos decido cambiar el nombre del datacenter. Seleccionar el datacenter
 **Production** (1), con click derecho mostrar el menú de contexto. Click
-en: **Rename** (2)
+en: **Rename** (2).
 
 <img src="./media/image10.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
 Introducir el nuevo nombre **Production Datacenter** (1) en el campo
-correspondiente, aceptar (2)
+correspondiente, aceptar (2).
 
 <img src="./media/image11.png" style="width:4.12968in;height:1.71305in"
 alt="A computer screen shot of a message Description automatically generated" />
 
 Se actualiza nuestro inventario con el nuevo nombre de **Production
-Datacenter**
+Datacenter**.
 
 <img src="./media/image12.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
