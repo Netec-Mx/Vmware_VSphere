@@ -8,7 +8,9 @@
 ## Duración aproximada:
 - minutos.
 
+
 > Revisión 1.1 2024
+
 
 ## Instrucciones
 
@@ -50,7 +52,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 **Conexión, exploración y configuración del host ESXi**
 
-Dar click en el acceso corto del host **ESXi-01**
+Dar click en el acceso corto del host **ESXi-01**.
 
 Proporcionar como:
 
@@ -95,14 +97,14 @@ alt="A screenshot of a computer Description automatically generated" />
 **Asociación del host ESXi a un dominio:**
 
 Dar Click en **Manage** (1), click en Security & Users (2), click en **Join
-domain** (3)
+domain** (3).
 
 <img src="./media/image10.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
 En la ventana emergente proporcionar la información de dominio, **Username**
 y **password**: `VMware1!`, click en **Join Domain**, el host se asocia al dominio
-**vclass.local**
+**vclass.local**.
 
 <img src="./media/image11.png" style="width:3.79427in;height:2.39389in"
 alt="A screenshot of a computer Description automatically generated" />
