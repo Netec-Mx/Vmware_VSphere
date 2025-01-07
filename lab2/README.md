@@ -52,8 +52,7 @@ alt="A screenshot of a computer Description automatically generated" />
 Aparecerá en el inventario el datacenter **Production** iniciando el
 inventario de objetos de nuestro ambiente virtual.
 
-**  
-**
+
 
 ## Actividad \# 2
 
