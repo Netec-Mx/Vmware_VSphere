@@ -2,14 +2,14 @@
 
 ## Objetivos de la práctica:
 
-- Activar una máquina virtual, reconocer su estado actual
-- Crear un Snapshot como 1er punto de retorno
-- Aplicar un primer cambio
-- Crear un Snapshot como 2do punto de retorno
-- Aplicar un segundo cambio
-- Crear un Snapshot como 3er punto de retorno
-- Aplicación del último punto de retorno
-- Uso de la historia de Snapshots
+- Activar una máquina virtual, reconocer su estado actual.
+- Crear un Snapshot como 1er punto de retorno.
+- Aplicar un primer cambio.
+- Crear un Snapshot como 2do punto de retorno.
+- Aplicar un segundo cambio.
+- Crear un Snapshot como 3er punto de retorno.
+- Aplicación del último punto de retorno.
+- Uso de la historia de Snapshots.
 
 ## Duración aproximada:
 - minutos.
