@@ -1,21 +1,16 @@
-# Laboratorio \# 1
+# Práctica 1. Acceso al escritorio remoto, exploración y configuración incial en el host ESXi y VCenter Server
 
-## Acceso al escritorio remoto, exploración y configuración inicial en el host ESXi y vCenter Server
+## Objetivos de la práctica:
+- Acceder al escritorio remoto (espacio de trabajo continuo).
+- Conectar, explorar y configurar el host ESXi.
+- Conectar, explorar y configurar el vCenter Server.
+
+## Duración aproximada:
+- minutos.
 
 > Revisión 1.1 2024
 
-**Laboratorio \# 1**
-
-**Acceso al escritorio remoto, exploración y configuración inicial en el
-host ESXi y vCenter Server**
-
-Actividades a realizar:
-
-1.  Acceso al escritorio remoto (espacio de trabajo continuo)
-
-2.  Conexión, exploración y configuración del host ESXi
-
-3.  Conexión, exploración y configuración del vCenter Server
+## Instrucciones
 
 ## Actividad \# 1
 
@@ -39,7 +34,7 @@ alt="A screenshot of a computer screen Description automatically generated" />
 
 Se recomienda guardar su identidad y credenciales para futuros accesos.
 
-Se presentará el escritorio remoto con el browser de Firefox
+Se presentará el escritorio remoto con el browser de Firefox.
 
 <img src="./media/image3.png" style="width:3.16969in;height:1.8062in"
 alt="A blue screen with a square window Description automatically generated with medium confidence" />
@@ -75,20 +70,20 @@ por el centro (2) y las estadísticas de recursos por la derecha (3).
 <img src="./media/image6.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Click en **Virtual Machines** (1), y observar que tenemos en el inventario
+Dar click en **Virtual Machines** (1), y observar que tenemos en el inventario
 una máquina virtual (2) que se llama **VM_01**.
 
 <img src="./media/image7.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Click en **Storage** (1), observar que tenemos un datastore local (2) que se
+Dar click en **Storage** (1), observar que tenemos un datastore local (2) que se
 llama **Storage_ESXi01**. este es un disco virtual **VMFS** interno del
 servidor.
 
 <img src="./media/image8.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Click en **vSwitch** (1), observar del lado derecho los elementos del
+Hacer click en **vSwitch** (1), observar del lado derecho los elementos del
 **vSwitch0**. Switch interno del **host ESXi**, con sus elementos a saber: red
 **VM Network** (2), con una máquina virtual asociada **VM_01*, (3) un puerto
 **VMkernel** con dirección 172.20.10.51, que se utiliza para administrar el
@@ -121,7 +116,7 @@ Observar que el servicio está detenido (4), Click en **Start** (5).
 <img src="./media/image12.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Observe que se ha iniciado el servicio (1) y (2)
+Observe que se ha iniciado el servicio (1) y (2).
 
 <img src="./media/image13.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />**  
@@ -130,25 +125,25 @@ alt="A screenshot of a computer Description automatically generated" />**
 **Activar el servicio de NTP**
 
 Dar click en **Manage** (1), **System** (2), **Time & date** (3), observe que el
-servicio no está activo (4), Click en **Edit NTP Settings** (5)
+servicio no está activo (4), Click en **Edit NTP Settings** (5).
 
 <img src="./media/image14.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Configure en la ventana emergente, Click en **Use Network Time Protocol**
+Configurar en la ventana emergente, Click en **Use Network Time Protocol**
 (enable NTP Client) (1), seleccione: **Start and stop with host** (2),
 proporcione la dirección Ip del **NTP server**, <u>172.20.10.2</u> (3)
 
 <img src="./media/image15.png" style="width:4.03226in;height:1.87152in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Como resultado estará el servicio configurado, pero detenido
+Como resultado estará el servicio configurado, pero detenido.
 
 <img src="./media/image16.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Para activarlo click **Manage** (1), **click Services** (2), click **ntpd** (3),
-observe que está detenido (4), click **Start** (5)
+Para activarlo, dar click **Manage** (1), **click Services** (2), click **ntpd** (3),
+observe que está detenido (4), click **Start** (5).
 
 <img src="./media/image17.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -161,7 +156,7 @@ El servicio ya está activo
 <img src="./media/image18.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Enseguida click en **Manage** (1), **click System** (2), **Click Time & date** (3),
+Enseguida, hacer click en **Manage** (1), **click System** (2), **Click Time & date** (3),
 observe que requiere actualización la interfaz, Click **Refresh** (5).
 
 <img src="./media/image19.png" style="width:5.88889in;height:3.3125in"
@@ -170,31 +165,31 @@ alt="A screenshot of a computer Description automatically generated" />
 **  
 **
 
-Finalmente se presenta ya activo NTP en la interfaz
+Finalmente, se presenta ya activo NTP en la interfaz.
 
 <img src="./media/image20.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
 **Asignación de Licencia al Host Esxi**
 
-Dar click en **Manage**(1), click **Licensing** (2), **Assign Licence** (3)
+Dar click en **Manage**(1), click **Licensing** (2), **Assign Licence** (3).
 
 <img src="./media/image21.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />**  
 **
 
 En la ventana emergente proporcionar la licencia que le otorgue el
-instructor y de click en **Check License**
+instructor y de click en **Check License**.
 
 <img src="./media/image22.png" style="width:4.60677in;height:2.30339in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Click en **Assign Licence**
+Click en **Assign Licence**.
 
 <img src="./media/image23.png" style="width:4.69507in;height:2.33073in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Aparece la interfaz con la licencia activa
+Aparece la interfaz con la licencia activa.
 
 <img src="./media/image24.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -203,33 +198,33 @@ alt="A screenshot of a computer Description automatically generated" />
 
 ## Actividad \# 3
 
-Conexión, exploración y configuración del vCenter Server
+Conexión, exploración y configuración del vCenter Server.
 
 En la interfaz del browser Firefox click en el acceso directo del
 **vCenter** (1), proporcionar como user: <administrator@vsphere.local> y
-Password: **VMware1!** (2), Click en **LOGIN** (3)
+Password: **VMware1!** (2), Click en **LOGIN** (3).
 
 <img src="./media/image25.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Verificar que no tiene licencia asignada el **vCenter Server** (1)
+Verificar que no tiene licencia asignada el **vCenter Server** (1).
 
 <img src="./media/image26.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
 Asignar licencia al Click en el **vCenter Server** sa-vcsa-01.vclass.local
-(1), click en **Configure** (2), **Licensing** (3), **Assign Licence** (4)
+(1), click en **Configure** (2), **Licensing** (3), **Assign Licence** (4).
 
 <img src="./media/image27.png"
 style="width:5.8875in;height:3.31389in" />
 
 Proporcionar la licencia que le otorgue el instructor en la ventana
-emergente
+emergente.
 
 <img src="./media/image28.png" style="width:4.67407in;height:2.61198in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Observe que se lista la licencia en la interfaz
+Observar que se lista la licencia en la interfaz.
 
 <img src="./media/image29.png" style="width:6.5in;height:3.65625in"
 alt="A screenshot of a computer Description automatically generated" />
