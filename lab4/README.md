@@ -157,7 +157,7 @@ contextual, seleccionar **Migrate VMS to Another Network** (5).
 <img src="./media/image13.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-En el paso seleccionar red destino, seleccionar la red de **Production**
+En el paso (1) seleccionar red destino, seleccionar la red de **Production**
 (2).
 
 <img src="./media/image14.png" style="width:4.39184in;height:3.32224in"
@@ -184,7 +184,7 @@ De igual forma la **VM_02**.
 <img src="./media/image18.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-### Actividad 3. Realizar prueba de conectividad
+### Actividad 4. Realizar prueba de conectividad
 
 Encender ambas máquinas virtuales, seleccionar **VM_01** (1), presionar
 botón derecho, click en **Power** (2) y seleccionar **Power On** (3).
