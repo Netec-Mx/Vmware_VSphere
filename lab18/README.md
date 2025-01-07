@@ -61,7 +61,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-### Actividad 2 Crear un Snapshot como 1er punto de retorno
+### Actividad 2. Crear un Snapshot como 1er punto de retorno
 
 En la vista de **Host & Clusters** (1), seleccionr la máquina virtual
 **linux_01** (3). Tomar un primer Snapshot del menú contextual **Take
@@ -85,7 +85,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-### Actividad 3 Aplicar un primer cambio
+### Actividad 3. Aplicar un primer cambio
 
 A manera de cambio, eliminar del escritorio los accesos directos de los
 navegadores.
@@ -119,7 +119,7 @@ alt="A computer screen shot of a message Description automatically generated" />
 
 <br/>
 
-### Actividad 5 Aplicar un segundo cambio
+### Actividad 5. Aplicar un segundo cambio
 
 En la máquina virtual aplicamos un segundo cambio. Eliminar los accesos
 directos en el desktop de las aplicaciones por default.
