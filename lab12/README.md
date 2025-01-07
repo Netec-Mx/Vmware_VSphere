@@ -11,9 +11,9 @@
 
 > Revisión 1.1 2024
 
-## Instrucciones# 
+## Instrucciones
 
-## Actividad 1. Incremento de memoria virtual y capacidad de un disco
+### Actividad 1. Incremento de memoria virtual y capacidad de un disco
 
 Utilizar en su sistema la herramienta de “**Conexión a escritorio
 remoto**” con la dirección y puerto que le proporcionará su instructor;
