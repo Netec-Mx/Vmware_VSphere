@@ -194,7 +194,6 @@ Notar que tenemos dos máquinas virtuales **Linux_04**, **Linux_05** y
 una VM de servicios de **clusters vCLS** (4).
 
 <br/>
-<br/>
 
 <img src="./media/image16.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
