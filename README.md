@@ -69,15 +69,15 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
    - **Descripción**:  
    - ⏱️ **Duración estimada**:  minutos.
 
- - [Práctica 15. Crear una librería de contenido de suscripciones.](./)
+ - [Práctica 15. Crear una librería de contenido de suscripciones.](./lab15/readme.md)
    - **Descripción**:  
    - ⏱️ **Duración estimada**:  minutos.
 
- - [Práctica 16. Migración de VMs entre host ESXi (vMotion).](./)
+ - [Práctica 16. Migración de VMs entre host ESXi (vMotion).](./lab16/readme.md)
    - **Descripción**:  
    - ⏱️ **Duración estimada**:  minutos.
 
- - [Práctica 17. Storage vMotion.](./)
+ - [Práctica 17. Storage vMotion.](./lab17/readme.md)
    - **Descripción**:  
    - ⏱️ **Duración estimada**:  minutos.
 
