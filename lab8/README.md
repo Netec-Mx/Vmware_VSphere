@@ -32,15 +32,21 @@ seleccionar **Storage** (3) click en **New Datastore** (4).
 <img src="./media/image1.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+
 En el paso de tipo de DataStore, seleccionar NFS (2), Next (3).
 
 <img src="./media/image2.png" style="width:4.37845in;height:3.30816in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+
 Click en la versión NFS 3 (2), Next (3).
 
 <img src="./media/image3.png" style="width:4.09059in;height:3.07552in"
 alt="A screenshot of a computer Description automatically generated" />
+
+<br/>
 
 Establecer en nombre de DataStore como **NFS-Datastore**, Folder
 **/mnt/NFS-POOL**, Server **172.20.10.15** (2). Asegurar que está sin
@@ -49,16 +55,22 @@ activar **Mount NFS as ready-only** (3), **Next** (4).
 <img src="./media/image4.png" style="width:4.10156in;height:3.09896in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+
 Establecer que el DataStore NFS será visible para ambos host ESXi, click
 en **host** (3), **Next** (4).
 
 <img src="./media/image5.png" style="width:4.76302in;height:3.56787in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+
 Revisar resumen de la configuración, FINISH (3).
 
 <img src="./media/image6.png" style="width:4.73177in;height:3.54446in"
 alt="A screenshot of a computer Description automatically generated" />
+
+<br/>
 
 Se presenta en la lista de DataStores en el servicio de almacenamiento NFS
 **NFS-Datastore**, visible desde los dos hosts ESXi.
