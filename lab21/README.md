@@ -181,6 +181,9 @@ Tenemos ya resuelta la alarma en el host **ESXI_02**.
 <img src="./media/image15.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+<br/>
+
 ### Actividad 3. Operación de HA
 
 Para ver en acción a HA, notemos que máquinas virtuales están en el Host
@@ -190,6 +193,7 @@ Seleccionar el Host **ESXI_02** (2). Hacer click en la pestaña de VMs (3).
 Notar que tenemos dos máquinas virtuales **Linux_04**, **Linux_05** y
 una VM de servicios de **clusters vCLS** (4).
 
+<br/>
 <br/>
 
 <img src="./media/image16.png" style="width:5.88889in;height:3.3125in"
