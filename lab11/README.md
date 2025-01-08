@@ -11,6 +11,9 @@
 
 ## Instrucciones
 
+<br/>
+<br/>
+
 ## Actividad 1. Instalación de las VMware Tools
 
 Utilizar en su sistema la herramienta de “**Conexión a escritorio
@@ -55,6 +58,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 Se presenta la siguiente pregunta para aceptar cambios en el medio de
 CD/DVD, seleccionar **Yes** (1), **ANSWER**.
+
 (2)<img src="./media/image4.png" style="width:4.23966in;height:1.75434in"
 alt="A screenshot of a computer Description automatically generated" />
 
