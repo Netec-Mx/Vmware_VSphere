@@ -11,9 +11,6 @@
 
 ## Instrucciones
 
-<br/>
-<br/>
-
 ## Actividad 1. Instalación de las VMware Tools
 
 Utilizar en su sistema la herramienta de “**Conexión a escritorio
