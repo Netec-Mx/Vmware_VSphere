@@ -151,6 +151,7 @@ relacionados **host** (3), **Red** (4) y **Storage** (5).
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
+<br/>
 
 ### Actividad 2. Eliminación de una máquina virtual del inventario
 
@@ -185,6 +186,7 @@ archivos intactos de la **VM** (5).
 <img src="./media/image16.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
 <br/>
 
 ### Actividad 3. Registro de una máquina virtual en un host
@@ -225,6 +227,7 @@ Ahora, se despliega la VM en la estructura del **host ESXI_02** (4).
 <img src="./media/image21.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
 <br/>
 
 ### Tarea 4. Eliminación del disco de una máquina virtual
