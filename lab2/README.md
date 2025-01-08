@@ -8,18 +8,16 @@
 
 ## Duración aproximada:
 - minutos.
-
+<br/>
 
 > Revisión 1.1 2024
 
 
 ## Instrucciones
 
-## Actividad \# 1
+### Actividad 1. Crear un datacenter
 
-**Crear un datacenter.**
-
-Utilizar de su sistema la herramienta de “**Conexión a escritorio
+Utilizar en su sistema la herramienta de “**Conexión a escritorio
 remoto**” con la dirección y puerto que le proporcionará su instructor;
 utilizar como:
 
@@ -27,7 +25,7 @@ utilizar como:
 >
 > Contraseña: `VMware1!`
 
-Abrir una instancia de Firefox, seleccionando el acceso rápido de
+Abrir una instancia de Firefox, seleccionar el acceso rápido de
 **vCenter**.
 
 En el inventario de **vCenter** dar click en el **vCenter
@@ -38,25 +36,30 @@ aparezca el menú de contexto, click en la opción: **New Datacenter**
 <img src="./media/image1.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+
 Dar nombre de **Production** (1) al datacenter y avanzar con click en
 **OK** (2).
 
 <img src="./media/image2.png" style="width:3.77079in;height:1.78906in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+
 Se despliega el nuevo datacenter **Production**.
 
 <img src="./media/image3.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+
 Aparecerá en el inventario el datacenter **Production** iniciando el
 inventario de objetos de nuestro ambiente virtual.
 
+<br/>
+<br/>
 
-
-## Actividad \# 2
-
-**Creación de un folder para host ESXi**
+## Actividad 2. Creación de un folder para host ESXi
 
 En nuestro inventario en la vista de **Host and clusters** seleccionar
 nuestro **datacenter Production** (1), dar click derecho para
@@ -66,14 +69,15 @@ seleccionar del menú contextual la opción: **New Folder** (2), click en:
 <img src="./media/image4.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+
 Se despliega una caja de diálogo, establecer el nombre de folder como
 **Production Servers** (1), aceptar (2).
 
 <img src="./media/image5.png" style="width:4.58195in;height:1.19041in"
 alt="A screenshot of a computer Description automatically generated" />
 
-**  
-**
+<br/>
 
 Observar el folder (2) que se presenta en la vista de **Hosts &
 Clusters** bajo el datacenter **Production** (1) , ahí alojaremos
@@ -82,12 +86,10 @@ nuestros hosts **ESXi**.
 <img src="./media/image6.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
-**  
-**
+<br/>
+<br/>
 
-## Actividad \# 3
-
-**Creación de un folder para máquinas virtuales**
+## Actividad 3. Creación de un folder para máquinas virtuales
 
 Crear un folder para nuestras VMs, seleccionar el datacenter
 **Production** (1), con click derecho desplegar el menú contextual,
@@ -97,6 +99,8 @@ seleccionar: **New Folder** (2), click en **New VM and Template Folder**
 <img src="./media/image7.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+
 Establecer en la caja de diálogo el nombre de **Production VMs &
 Templates** para el folder en el que se concentrarán las **VMs** de
 nuestros **Hosts ESXi** (1).
@@ -104,8 +108,7 @@ nuestros **Hosts ESXi** (1).
 <img src="./media/image8.png" style="width:5.20012in;height:1.32552in"
 alt="A computer screen shot of a message Description automatically generated" />
 
-**  
-**
+<br/>
 
 Para ver el folder recientemente creado, seleccionar la vista de
 máquinas virtuales y plantillas (1).  
@@ -115,6 +118,8 @@ Se despliega el **vCenter server** (2), el Datacenter **Production**
 <img src="./media/image9.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+
 Hemos decido cambiar el nombre del datacenter. Seleccionar el datacenter
 **Production** (1), con click derecho mostrar el menú de contexto. Click
 en: **Rename** (2).
@@ -122,11 +127,15 @@ en: **Rename** (2).
 <img src="./media/image10.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
+<br/>
+
 Introducir el nuevo nombre **Production Datacenter** (1) en el campo
 correspondiente, aceptar (2).
 
 <img src="./media/image11.png" style="width:4.12968in;height:1.71305in"
 alt="A computer screen shot of a message Description automatically generated" />
+
+<br/>
 
 Se actualiza nuestro inventario con el nuevo nombre de **Production
 Datacenter**.
