@@ -12,6 +12,9 @@
 
 ## Instrucciones
 
+<br/>
+<br/>
+
 ### Actividad 1. Agregar un disco con formato Thick Provision Eager Zeroed
 
 Utilizar en su sistema la herramienta de “**Conexión a escritorio
