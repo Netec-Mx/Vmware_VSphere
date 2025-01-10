@@ -1,4 +1,4 @@
-# Práctica 3. Integración de Hosts al inventario y configuración del protocolo NTP en un host con vCenter Server
+# Práctica 3. Integración de hosts al inventario y configuración del protocolo NTP en un host con vCenter Server
 
 ## Objetivos de la práctica:
 
@@ -7,7 +7,7 @@
 - Configurar NTP en el host **ESXI-02**.
 
 ## Duración aproximada:
-- minutos.
+- 30 inutos.
 
 
 > Revisión 1.1 2024
