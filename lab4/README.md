@@ -1,4 +1,4 @@
-# Práctica 4. Creación de elementos de red con Switches Standard
+# Práctica 4. Creación de elementos de red con switches standard
 
 ## Objetivos de la práctica:
 
@@ -9,7 +9,7 @@
 - Instalar las VMware Tools en la VM_01. 
 
 ## Duración aproximada:
-- minutos.
+- 20 minutos.
 <br/>
 
 > Revisión 1.1 2024
