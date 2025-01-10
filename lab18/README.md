@@ -12,7 +12,7 @@
 - Uso de la historia de Snapshots.
 
 ## Duración aproximada:
-- minutos.
+- 20 minutos.
 <br/>
 
 > Revisión 1.1 2024
