@@ -6,7 +6,7 @@
 - Crear una librería de contenido de subscripción.
 
 ## Duración aproximada:
-- minutos.
+- 20 minutos.
   
 <br/>
 
