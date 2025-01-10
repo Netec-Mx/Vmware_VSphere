@@ -7,7 +7,7 @@
 - Creación de un folder para máquinas virtuales.
 
 ## Duración aproximada:
-- minutos.
+- 30 minutos.
 <br/>
 
 > Revisión 1.1 2024
