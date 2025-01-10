@@ -10,7 +10,7 @@
 - Descubrir las **LUNs** desde el **Host ESXI_02**.
 
 ## Duración aproximada:
-- minutos.
+- 20 minutos.
 
 
 > Revisión 1.1 2024
