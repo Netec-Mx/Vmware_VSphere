@@ -7,7 +7,7 @@
 - Operación de HA.
  
 ## Duración aproximada:
-- minutos.
+- 20 minutos.
 <br/>
 
 > Revisión 1.1 2024
