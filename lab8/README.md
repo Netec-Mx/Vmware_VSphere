@@ -1,10 +1,10 @@
-# Práctica 8. DataStores NFS
+# Práctica 8. Datastores NFS
 
 ## Objetivos de la práctica:
-- Crear un datastore NFS.
+- Crear un Datastore NFS.
 
 ## Duración aproximada:
-- minutos.
+- 10 minutos.
 <br/>
 
 > Revisión 1.1 2024
