@@ -8,7 +8,7 @@
 - Eliminar el disco de una máquina virtual.
 
 ## Duración aproximada:
-- minutos.
+- 10 minutos.
 <br/>
 
 > Revisión 1.1 2024
