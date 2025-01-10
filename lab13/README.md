@@ -8,7 +8,7 @@
 - Clonar una VM operacional.
 
 ## Duración aproximada:
-- minutos.
+- 30 minutos.
 <br/>
 
 > Revisión 1.1 2024
