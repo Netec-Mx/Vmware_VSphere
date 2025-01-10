@@ -35,7 +35,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
 
  - [Práctica 6. Almacenamiento, tecnología iSCSI.](./lab6/README.md)
    - **Descripción**:  
-   - ⏱️ **Duración estimada**:  minutos.
+   - ⏱️ **Duración estimada**: 20 minutos.
 
  - [Práctica 7. DataStores VMFS su administración.](./lab7/README.md)
    - **Descripción**:  
