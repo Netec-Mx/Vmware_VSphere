@@ -6,7 +6,7 @@
 - Cambiar de nombre de una VM. 
 
 ## Duración aproximada:
-- minutos.
+- 20 minutos.
 <br/>
 
 > Revisión 1.1 2024
