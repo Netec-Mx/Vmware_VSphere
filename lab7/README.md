@@ -1,16 +1,16 @@
-# Práctica 7. DataStores VMFS su administración
+# Práctica 7. Datastores VMFS su administración
 
 ## Objetivos de la práctica:
 
-- Creación de DataStore VMFS con uso parcial de la capacidad de una
+- Creación de Datastore VMFS con uso parcial de la capacidad de una
   LUN.
-- Creación de DataStore VMFS con uso total de una LUN.
-- Expansión de un DataStore VMFS con reclamo de capacidad sin consumir
+- Creación de Datastore VMFS con uso total de una LUN.
+- Expansión de un Datastore VMFS con reclamo de capacidad sin consumir
   de una LUN.
-- Eliminación de un DataStore VMFS. 
+- Eliminación de un Datastore VMFS. 
 
 ## Duración aproximada:
-- minutos.
+- 30 minutos.
   
 <br/>
 
