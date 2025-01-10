@@ -1,4 +1,4 @@
-# Práctica 5. Configuración de Switches Distribuidos
+# Práctica 5. Configuración de switches distribuidos
 
 ## Objetivos de la práctica:
 
@@ -8,7 +8,7 @@
 - Verificar configuración del Switch distribuido.
 
 ## Duración aproximada:
-- minutos.
+- 20 minutos.
 <br/>
 
 > Revisión 1.1 2024
