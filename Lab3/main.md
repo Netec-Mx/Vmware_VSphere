@@ -14,8 +14,6 @@
 
 ## Instrucciones
 
-<br/>
-
 ### Actividad 1. Incluir en el inventario al host ESXi-01
 
 Utilizar del sistema la herramienta de “Conexión a escritorio remoto”
