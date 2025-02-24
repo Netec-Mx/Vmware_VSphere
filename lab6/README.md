@@ -40,8 +40,8 @@ Iniciar con el Host **ESXi_01** y realizar una configuración
 similar en el Host **ESXI-02**.
 
 Seleccionar el host **ESXi_01** (1). Dar click en pestaña **Configure** (2)
-en la sección de **Networking** y dar click en **Virtual switches** (3).
-Expandir el **vSwitch0** (4)y dar click en **ADD NETWORKING** (5).
+en la sección de **Networking** y seleccionar **Virtual switches** (3).
+Expandir el **vSwitch0** (4) y dar click en **ADD NETWORKING** (5).
 
 <img src="./media/image1.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -260,7 +260,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Verificar el status **ENABLE** (5) y el **iSCSI Name** (6). Para esto, dar
-click en el **host**. Dar click en pestaña **Configure** (2). En
+click en el **host** y seleccionar la pestaña **Configure** (2). En
 **Storage adapter**, dar click en la tarjeta controladora **iSCSI** basada
 en Software (4) y en la pestaña **Properties** (5).
 
