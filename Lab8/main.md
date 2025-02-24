@@ -16,7 +16,7 @@ como:
 >
 > Contraseña: `VMware1!`
 
-Abrir una instancia de Firefox, seleccionando el acceso rápido de
+Abrir una instancia de Firefox seleccionando el acceso rápido de
 vCenter.
 
 Para contar con un DataStore NFS, en la vista de DataStores (1) dar click
