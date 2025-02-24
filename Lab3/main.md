@@ -33,14 +33,14 @@ contextual seleccionar: Add Host (2)
 
 <img src="./media/image1.png" style="width:5.8875in;height:3.31389in" />
 
-En el paso Nombre y ubicación, proporcionar el nombre completo del
+En el paso ***Nombre y ubicación***, proporcionar el nombre completo del
 dominio **sa-esxi-01.vclass.local** (1).
 
 <img src="./media/image2.png" style="width:4.48698in;height:3.39823in"
 alt="A screenshot of a computer Description automatically generated" />
 
 En especificaciones de conexión, proporcionar: User name: `root` y Password:
-`VMware1!` (1), dar en aceptar (2).
+`VMware1!` (1). Aceptar (2).
 
 <img src="./media/image3.png" style="width:4.48177in;height:3.39428in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -120,18 +120,18 @@ Aceptar (3).
 alt="A screenshot of a computer Description automatically generated" />
 
 Activar el modo lockdown mode para proteger el acceso al host solo de la
-consola local y vCenter Server (1). Avanzar (2).
+consola local y vCenter Server (1). Next (2).
 
 <img src="./media/image17.png" style="width:3.86719in;height:2.92883in"
 alt="A screenshot of a computer Description automatically generated" />
 
 Definir la ubicación de las máquinas virtuales en el folder Production
-VMs & Templates (3). Avanzar (4).
+VMs & Templates (3). Next (4).
 
 <img src="./media/image18.png" style="width:4.17969in;height:3.13732in"
 alt="A screenshot of a computer Description automatically generated" />
 
-Revisar el resumen de la configuración. Finalizar (3).
+Revisar el resumen de la configuración. Finish (3).
 
 <img src="./media/image19.png" style="width:4.19531in;height:3.15809in"
 alt="A screenshot of a computer Description automatically generated" />
