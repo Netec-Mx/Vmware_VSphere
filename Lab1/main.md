@@ -1,4 +1,4 @@
-# Práctica 1. Instalación configuración y administración
+# Práctica 1. Instalación, configuración y administración
 
 ## Objetivos de la práctica:
 - Acceder al escritorio remoto.
