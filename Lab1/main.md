@@ -1,4 +1,4 @@
-# Práctica 1. Instalación, configuración y administración
+# Práctica 1. Acceso al escritorio remoto, exploración y configuración inicial en el host ESXi y vCenter Server
 
 ## Objetivos de la práctica:
 - Acceder al escritorio remoto.
