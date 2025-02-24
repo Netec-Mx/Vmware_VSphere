@@ -15,7 +15,6 @@
 ## Instrucciones
 
 <br/>
-<br/>
 
 ### Actividad 1. Incluir en el inventario al host ESXi-01
 
