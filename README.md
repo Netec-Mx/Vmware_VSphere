@@ -13,7 +13,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
 ---
  
 ## Índice:
- - [Práctica 1. Acceso al escritorio remoto, exploración y configuración inicial en el host ESXi y vCenter Server.](./lab1/README.md)
+ - [Práctica 1. Acceso al escritorio remoto, exploración y configuración inicial en el host ESXi y vCenter Server.](./Lab1/main.md)
    - ⏱️ **Duración estimada**: 20 minutos.
 
  - [Práctica 2. Creación de un DataCenter, creación de folders para host ESXi y máquinas virtuales.](./lab2/README.md)
@@ -34,7 +34,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
  - [Práctica 7. DataStores VMFS su administración.](./lab7/README.md)
    - ⏱️ **Duración estimada**: 30 minutos.
 
- - [Práctica 8. DataStore NFS.](./lab8/README.md)
+ - [Práctica 8. DataStore NFS.](./Lab8/main.md)
    - **Descripción**:  
    - ⏱️ **Duración estimada**: 10 minutos.
 
