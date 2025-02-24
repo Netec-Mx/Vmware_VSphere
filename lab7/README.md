@@ -35,15 +35,15 @@ Abrir una instancia de Firefox, seleccionar el acceso rápido de
 
 Para consumir las **LUNs** descubiertas y crear **datastores VMFS** es
 necesario dar click en la vista de almacenamiento (1). Dar click en el
-**Production Datacenter** (2), presionar el botón derecho, click en
-**Storage**, click en New **Datastore**.
+**Production Datacenter** (2), presionar el botón derecho y seleccionar
+**Storage**, dar click en New **Datastore**.
 
 <img src="./media/image1.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar en tipo de **datastore VMFS** (2), click **NEXT**(3).
+Seleccionar en tipo de **datastore VMFS** (2). Next (3).
 
 <img src="./media/image2.png" style="width:4.00122in;height:3.02314in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -59,15 +59,15 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar **versión 6** (2), **Next** (3).
+Seleccionar **versión 6** (2). Next (3).
 
 <img src="./media/image4.png" style="width:4.30851in;height:3.2433in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-En este caso no se consumirá todo el espacio disponible en la **LUN**,
-establecer con el selector de tamaño (2) un ajuste de 8 GB (3), **Next**
+En este caso no se consumirá todo el espacio disponible en la **LUN**.
+Establecer con el selector de tamaño (2) un ajuste de 8 GB (3), **Next**
 (4).
 
 <img src="./media/image5.png" style="width:4.35538in;height:3.29073in"
@@ -75,7 +75,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Revisar la configuración final, **Finish** (3).
+Revisar la configuración final. Finish (3).
 
 <img src="./media/image6.png" style="width:4.37847in;height:3.30052in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -102,7 +102,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar tipo **VMFS** (2). Dar click **Next** (3).
+Seleccionar tipo **VMFS** (2). Next (3).
 
 <img src="./media/image9.png" style="width:4.35538in;height:3.29073in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -110,28 +110,28 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Establecer como nombre del DataStorage **VMFS-2** (2). Seleccionar el
-host **ESXi_01** (3), LUN 6 de 7 GB (4), **Next** (5).
+host **ESXi_01** (3), LUN 6 de 7 GB (4). Next (5).
 
 <img src="./media/image10.png" style="width:4.42255in;height:3.3474in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Establecer **VMFS 6** (2), **Next** (3).
+Establecer **VMFS 6** (2). Next (3).
 
 <img src="./media/image11.png" style="width:4.41788in;height:3.32159in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Usar todo el espacio en la **LUN** (1), **Next** (2).
+Usar todo el espacio en la **LUN** (1). Next (2).
 
 <img src="./media/image12.png" style="width:4.41267in;height:3.33402in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Revisar la configuración final **Finish** (3).
+Revisar la configuración final. Finish (3).
 
 <img src="./media/image13.png" style="width:4.38142in;height:3.26586in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -158,7 +158,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Usar el selector de tamaño para utilizar los **3 GB** disponibles (3),
+Usar el selector de tamaño para utilizar los **3 GB** disponibles (3).
 **Next** (4).
 
 <img src="./media/image16.png" style="width:4.39184in;height:3.30603in"
@@ -183,8 +183,8 @@ alt="A screenshot of a computer Description automatically generated" />
 
 ### Actividad 4. Eliminación de un DataStore VMFS
 
-Para borrar un **datastore,** click en la vista de almacenamiento (1),
-click en el datastore **VMFS-2** (2), botón derecho, click en **Delete
+Para borrar un **datastore**, dar click en la vista de almacenamiento (1).
+Seleccionar el datastore **VMFS-2** (2), botón derecho, click en **Delete
 DataStore**.
 
 <img src="./media/image19.png" style="width:5.88958in;height:3.31319in"
@@ -192,7 +192,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Se presenta la advertencia correspondiente,**Yes** (1).
+Se presenta la advertencia correspondiente. Yes (1).
 
 <img src="./media/image20.png" style="width:3.73038in;height:1.32429in"
 alt="A screenshot of a computer Description automatically generated" />
