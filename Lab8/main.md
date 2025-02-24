@@ -37,7 +37,7 @@ Dar click en la versión NFS 4.1 (2). Next (3).
 alt="A screenshot of a computer Description automatically generated" />
 
 Establecer el nombre de dataStore como **NFS-Datastore**, Folder:
-`/mnt/NFS-POOL`, Server `172.20.10.15` (2)
+`/mnt/NFS-POOL`, Server `172.20.10.15` (2).
 
 <img src="./media/image4.png" style="width:6.5in;height:3.65625in"
 alt="A computer screen shot of a computer screen Description automatically generated" />
@@ -58,7 +58,7 @@ en Compatible hosts (2). Next (4).
 <img src="./media/image7.png" style="width:6.5in;height:3.65625in"
 alt="A computer screen with a message Description automatically generated" />
 
-Revisar el resumen de la configuración. Finish (3)
+Revisar el resumen de la configuración. Finish (3).
 
 Se presenta en la lista de DataStores en servicio de almacenamiento NFS
 NFS-Datastore, visible desde los dos hosts ESXi.
