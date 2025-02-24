@@ -21,7 +21,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
    - **Descripción**: 
    - ⏱️ **Duración estimada**: 30 minutos.
 
- - [Práctica 3. Integración de hosts al inventario y configuración del protocolo NTP en un host con vCenter Server.](./lab3/README.md)
+ - [Práctica 3. Integración de hosts al inventario y configuración del protocolo NTP en un host con vCenter Server.](./Lab3/main.md)
    - **Descripción**: 
    - ⏱️ **Duración estimada**: 30 minutos.
 
