@@ -1,4 +1,4 @@
-# Práctica 9. Administración de Máquinas Virtuales en el inventario del vCenter Server
+# Práctica 9. Administración de máquinas virtuales en el inventario del vCenter Server
 
 ## Objetivos de la práctica:
 
@@ -31,8 +31,8 @@ Abrir una instancia de Firefox, seleccionar el acceso rápido de
 El proceso de incluir máquinas virtuales se puede realizar a partir de
 diferentes opciones, utilizar el vCenter Server para hacerlo.
 
-En la vista de máquinas virtuales (1), click en el folder de
-**Production VMs & Templates** (2), en el menú contextual seleccionar
+En la vista de máquinas virtuales (1), dar click en el folder de
+**Production VMs & Templates** (2). En el menú contextual seleccionar
 **New Virtual Machines** (3).
 
 <img src="./media/image1.png" style="width:5.88889in;height:3.3125in"
@@ -41,26 +41,26 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 En el primer paso del proceso, seleccionar el tipo de creación a
-utilizar, click en **Create a new virtual machine** (2), **Next** (3).
+utilizar, dar click en **Create a new virtual machine** (2) Next (3).
 
 <img src="./media/image2.png" style="width:4.30469in;height:3.26452in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-En selección de Nombre y folder, establecer el nombre **Linux-Empty**
+En selección de ***Nombre y folder***, establecer el nombre **Linux-Empty**
 (2), esta será una VM que agregaremos al inventario estableciendo su
 arquitectura, pero sin recorrer todos pasos del sistema operativo guest
 para su  instalación final, será una VM de Linux.
 
-Click en folder **Production VMs & Templates (3), Next (4)**.
+Click en folder **Production VMs & Templates (3).** Next (4).
 
 <img src="./media/image3.png" style="width:4.55469in;height:3.43718in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Para su funcionamiento la alojaremos en el **host ESXi_01** (3), Next
+Para su funcionamiento la alojaremos en el **host ESXi_01** (3). Next
 (4).
 
 <img src="./media/image4.png" style="width:4.48177in;height:3.36549in"
@@ -70,7 +70,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 Importante, seleccionar el DataStore en el que quedarán sus archivos,
 en este caso se usará ya un datastore compartido que permitirá,
-posteriormente, hacer vMotion con esta VM; click en **iSCSI-Datastore** (2),
+posteriormente hacer vMotion con esta VM. Dar click en **iSCSI-Datastore** (2).
 Next (3).
 
 <img src="./media/image5.png" style="width:4.3724in;height:3.29962in"
@@ -78,7 +78,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-La compatibilidad la dejaremos en su valor por default, versión 8 (2),
+La compatibilidad la dejaremos en su valor por default, versión 8 (2).
 Next (3).
 
 <img src="./media/image6.png" style="width:4.33594in;height:3.28822in"
@@ -87,7 +87,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 En la selección del sistema operativo **guest**, seleccionar **Linux** (2) con
-distribución **Ubuntu** (3), **Next** (4).
+distribución **Ubuntu** (3). Next (4).
 
 <img src="./media/image7.png" style="width:4.36719in;height:3.27806in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -113,7 +113,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar el DataStore **local Storage_ESXi01** (1), OK (2).
+Seleccionar el DataStore **local Storage_ESXi01** (1). OK (2).
 
 <img src="./media/image9.png" style="width:4.23545in;height:2.03385in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -127,22 +127,22 @@ En la estructura de disco local, seleccionar el ISO de **Ubuntu** (2).
 <br/>
 
 Asegurarse que la unidad de CD/DVD esté conectada al arrancar la
-máquina virtual (3), **Next** (5).
+máquina virtual (3). Next (5).
 
 <img src="./media/image11.png" style="width:4.22135in;height:3.18563in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Revisar la configuración final, **Finish** (3).
+Revisar la configuración final. Finish (3).
 
 <img src="./media/image12.png" style="width:4.3202in;height:3.21615in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Observar la configuración de la VM que se ha creado, click en
-**Linux-Empty** (2), click en la pestaña **Summary** (2). Revisar los objetos
+Observar la configuración de la VM que se ha creado, dar click en
+**Linux-Empty** (2) y en la pestaña **Summary** (2). Revisar los objetos
 relacionados **host** (3), **Red** (4) y **Storage** (5).
 
 <br/>
@@ -158,15 +158,15 @@ alt="A screenshot of a computer Description automatically generated" />
 Proceder a eliminar la VM del inventario, esta operación no afecta sus
 archivos.
 
-En la vista de VMs & Plantillas, click en **Linux-Empty**, en el menú
-contextual Seleccionar Remove from **Inventory** (3).
+En la vista de VMs & Plantillas, dar click en **Linux-Empty**, en el menú
+contextual seleccionar Remove from **Inventory** (3).
 
 <img src="./media/image14.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Se presenta la advertencia en espera de confirmación, dar click en **Yes**
+Se presenta la advertencia en espera de confirmación, dar click en Yes
 (1).
 
 <img src="./media/image15.png" style="width:4.45552in;height:1.61719in"
@@ -174,14 +174,12 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-La máquina desaparece del inventario de vCenter Server
+La máquina desaparece del inventario de vCenter Server.
 
 Revisar el datastore en donde se encuentran los archivos de la VM para
 registrarla en otro **host ESXI**.
 
-En la vista de almacenamiento (1), click en **iSCI-Datastore**, click en
-pestaña **Files** (3), click en directorio **Linux-Empty**, se listan los
-archivos intactos de la **VM** (5).
+En la vista de almacenamiento (1), dar click en **iSCI-Datastore** (2). Dar click en la pestaña **Files** (3), seleccionar el directorio **Linux-Empty**, se listan los archivos intactos de la **VM** (5).
 
 <img src="./media/image16.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -191,7 +189,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 ### Actividad 3. Registro de una máquina virtual en un host
 
-Para registrarla en un host diferente, click en el archivo **vmx** (5) y
+Para registrarla en un host diferente, dar click en el archivo **vmx** (5) y
 presionar el botón **REGISTER VM**.
 
 <img src="./media/image17.png" style="width:5.88889in;height:3.3125in"
@@ -199,23 +197,23 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Determinar si se modifica el nombre (2), se selecciona **folder** (3),
-**Next** (4).
+Determinar si se modifica el nombre (2), seleccionar **folder** (3).
+Next (4).
 
 <img src="./media/image18.png" style="width:4.21615in;height:3.17378in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Momento de seleccionar el host al cual se asocia, click en ESXI_02,
-**Next** (4).
+Momento de seleccionar el host al cual se asocia, dar click en ESXI_02.
+Next (4).
 
 <img src="./media/image19.png" style="width:4.34635in;height:3.28783in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Revisar configuración final, **Finish** (2).
+Revisar la configuración final. Finish (2).
 
 <img src="./media/image20.png" style="width:4.35156in;height:3.28785in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -235,7 +233,7 @@ alt="A screenshot of a computer Description automatically generated" />
 Cuando se requiere borrar permanentemente una VM del inventario y
 disco.
 
-Seleccionar **Linux-Empty** (4) del menú contextual, seleccionar **Delete
+Seleccionar **Linux-Empty** (4) del menú contextual, dar click en **Delete
 from disk** (5).
 
 <img src="./media/image22.png" style="width:5.88889in;height:3.3125in"
@@ -244,7 +242,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Se muestra la advertencia correspondiente en espera de confirmación,
-click en **Yes** (1)
+dar click en Yes (1).
 
 <img src="./media/image23.png" style="width:3.39258in;height:1.50781in"
 alt="A screenshot of a computer Description automatically generated" />
