@@ -1,7 +1,7 @@
 # Práctica 1. Acceso al escritorio remoto, exploración y configuración inicial en el host ESXi y vCenter Server
 
 ## Objetivos de la práctica:
-- Acceder al escritorio remoto.
+- Acceder al escritorio remoto (espacio de trabajo continuo).
 - Realizar la exploración y configuración inicial en el host ESXi y vCenter Server.
 
 ## Duración aproximada:
@@ -11,17 +11,6 @@
 > Revisión 1.1 2024
 
 ## Instrucciones
-
-<br/>
-<br/>
-
-Actividades a realizar:
-
-1.  Acceso al escritorio remoto (espacio de trabajo continuo).
-
-2.  Conexión, exploración y configuración del host ESXi.
-
-3.  Conexión, exploración y configuración del vCenter Server.
 
 ### Actividad 1. Acceso al escritorio remoto (espacio de trabajo continuo)
 
@@ -135,7 +124,7 @@ alt="A screenshot of a computer Description automatically generated" />**
 
 ### Activar el servicio de NTP
 
-Dar click en Manage (1), en System (2) y  en Time & date (3). Observar que el
+Dar click en Manage (1), en System (2) y en Time & date (3). Observar que el
 servicio no está activo (4). Dar click en Edit NTP Settings (5).
 
 <img src="./media/image15.png" style="width:5.88889in;height:3.3125in"
