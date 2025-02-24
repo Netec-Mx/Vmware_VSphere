@@ -35,7 +35,6 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
    - ⏱️ **Duración estimada**: 30 minutos.
 
  - [Práctica 8. DataStore NFS.](./Lab8/main.md)
-   - **Descripción**:  
    - ⏱️ **Duración estimada**: 10 minutos.
 
  - [Práctica 9. Administración de Máquinas Virtuales en el inventario del vCenter Server.](./lab9/README.md)
@@ -48,7 +47,6 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
    - ⏱️ **Duración estimada**: 20 minutos.
 
  - [Práctica 12. Incremento de recursos en las VMs.](./lab12/README.md)
-   - **Descripción**:  
    - ⏱️ **Duración estimada**: 20 minutos.
 
  - [Práctica 13. Administración de plantillas y clones.](./lab13/README.md)
