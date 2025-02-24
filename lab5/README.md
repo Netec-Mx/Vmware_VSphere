@@ -9,7 +9,7 @@
 
 ## Duración aproximada:
 - 20 minutos.
-<br/>
+
 
 > Revisión 1.1 2024
 
@@ -29,9 +29,9 @@ utilizar como:
 Abrir una instancia de Firefox. Seleccionar el acceso rápido de
 **vCenter**.
 
-Para crear un Switch distribuido, click en la vista de redes (1). Dar click
+Para crear un Switch distribuido, dar click en la vista de redes (1). Dar click
 en el **datacenter Production Datacenter** (2), presionar el botón
-derecho, en el menú contextual seleccionar **Distributed Switch**, click
+derecho, en el menú contextual y seleccionar **Distributed Switch**. Dar click
 en **New Distributed Switch** (4).
 
 <img src="./media/image1.png" style="width:5.88889in;height:3.3125in"
@@ -39,8 +39,8 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-En el paso de Nombre y ubicación establecer como nombre: **vds
-Production** (2), aceptar (3).
+En el paso de ***Nombre y ubicación***, establecer como nombre: **vds
+Production** (2). Aceptar (3).
 
 <img src="./media/image2.png" style="width:3.95573in;height:3.29644in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -48,7 +48,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 En el paso para seleccionar la versión de Switch, dejar la versión por
-default **Esxi 8.0** (2), aceptar (3).
+default **Esxi 8.0** (2). Aceptar (3).
 
 <img src="./media/image3.png" style="width:3.96615in;height:3.28568in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -57,14 +57,14 @@ alt="A screenshot of a computer Description automatically generated" />
 
 En el paso de configuración de especificaciones, dejar los campos con
 opciones de **default** y asignar el nombre **dps-SA-Production** al
-**port group** (2), aceptar (3).
+**port group** (2). Aceptar (3).
 
 <img src="./media/image4.png" style="width:4.84409in;height:4.03038in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Revisar la configuración del Switch, aceptar (3).
+Revisar la configuración del Switch. Aceptar (3).
 
 <img src="./media/image5.png" style="width:4.26302in;height:3.5506in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -84,7 +84,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Click en el port group **dpg-SA-Production** (1), presionar el botón
+Dar click en el port group **dpg-SA-Production** (1), presionar el botón
 derecho y seleccionar **Edit Settings** (2).
 
 <img src="./media/image7.png" style="width:5.88889in;height:3.3125in"
@@ -114,7 +114,7 @@ alt="A screenshot of a computer Description automatically generated" />
 ### Actividad 3. Integración de Hosts al Switch distribuido, migración de VMs
 
 Para administrar los hosts en la vista de red, seleccionar el Switch
-distribuido (1), presionar botón derecho, click en **Add and Manage
+distribuido (1), presionar botón derecho y dar click en **Add and Manage
 Host** (2).
 
 <img src="./media/image10.png" style="width:5.88889in;height:3.3125in"
@@ -122,7 +122,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-En la opción de seleccionar tareas, click en **Add Host** (2), aceptar
+En la opción de seleccionar tareas, dar click en **Add Host** (2). Aceptar
 (3).
 
 <img src="./media/image11.png" style="width:4.77344in;height:3.59329in"
@@ -130,7 +130,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-En el paso para seleccionar host, click en **SELECT ALL** (2), aceptar
+En el paso para seleccionar host, dar click en **SELECT ALL** (2). Aceptar
 (3).
 
 <img src="./media/image12.png" style="width:4.28906in;height:3.24063in"
@@ -154,18 +154,18 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-El resultado es el siguiente, aceptar (4).
+El resultado es el siguiente. Aceptar (4).
 
 <img src="./media/image15.png" style="width:4.67969in;height:3.51843in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-En el paso de administración de adaptadores **VMkernel**, click en
+En el paso de administración de adaptadores **VMkernel**, dar click en
 **Assign port group** (2) y seleccionar el port group **dpg
 SA-Production** (5).
 
-Click en **ASSIGN** (4), Next (5).
+Click en **ASSIGN** (4). Next (5).
 
 <img src="./media/image16.png" style="width:4.37261in;height:3.25781in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -179,16 +179,15 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-En el paso de migrar **VMs**, click en **Migrate virtual machine
-networking** (2). Dar click en **configure per network adapter** (3), click
-en **ASSIGN PORT GROUP** (5).
+En el paso de migrar **VMs**, dar click en **Migrate virtual machine
+networking** (2). Dar click en **configure per network adapter** (3) y en **ASSIGN PORT GROUP** (5).
 
 <img src="./media/image18.png" style="width:4.70052in;height:3.52539in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Revisar la configuración, aceptar (3).
+Revisar la configuración. Aceptar (3).
 
 <img src="./media/image19.png" style="width:4.42969in;height:3.33453in"
 alt="A screenshot of a computer Description automatically generated" />
