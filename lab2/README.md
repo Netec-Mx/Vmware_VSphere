@@ -113,7 +113,7 @@ alt="A computer screen shot of a message Description automatically generated" />
 Para ver el folder recientemente creado, seleccionar la vista de
 máquinas virtuales y plantillas (1).  
 Se despliega el **vCenter server** (2), el Datacenter **Production**
-(3), y el folder creado **Production VMs & Templates** (4).
+(3) y el folder creado **Production VMs & Templates** (4).
 
 <img src="./media/image9.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -121,7 +121,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Hemos decido cambiar el nombre del datacenter. Seleccionar el datacenter
-**Production** (1), con click derecho mostrar el menú de contexto. Click
+**Production** (1), con click derecho mostrar el menú de contexto. Dar click
 en: **Rename** (2).
 
 <img src="./media/image10.png" style="width:5.88889in;height:3.3125in"
@@ -130,7 +130,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Introducir el nuevo nombre **Production Datacenter** (1) en el campo
-correspondiente, aceptar (2).
+correspondiente. Aceptar (2).
 
 <img src="./media/image11.png" style="width:4.12968in;height:1.71305in"
 alt="A computer screen shot of a message Description automatically generated" />
