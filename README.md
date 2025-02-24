@@ -1,4 +1,4 @@
-# VMware vSphere 8. Instalación, Configuración y Administración.
+# VMware vSphere 8. Instalación, Configuración y Administración
 
 **Plataforma de Laboratorios**
 
