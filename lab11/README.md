@@ -25,8 +25,7 @@ Abrir una instancia de Firefox, seleccionar el acceso rápido de
 **vCenter Server**.
 
 Para instalar las VM tools en una máquina Linux de nuestro laboratorio,
-click en la VM Linux_01 (1). En el menú contextual seleccionar Guest OS
-(2), click en Install VMware Tools (3), esto monta en la unidad de
+dar click en la VM **Linux_01** (1). En el menú contextual seleccionar **Guest OS** (2) y dar click en **Install VMware Tools** (3), esto monta en la unidad de
 CD/DVD los archivos de instalación.
 
 <img src="./media/image1.png" style="width:5.88889in;height:3.3125in"
@@ -35,7 +34,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Se despliega la ventana de información para señalar la operación en la
-VM, **MOUNT** (1).
+VM. **MOUNT** (1).
 
 <img src="./media/image2.png" style="width:3.42969in;height:2.22674in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -44,7 +43,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 En la interfaz, cuando está seleccionada la VM en la que se pretenden
 instalar las **VMware Tools**, con la pestaña Summary activa, se muestra un
-mensaje de advertencia que se debe atender. Dar click **Answer Question**
+mensaje de advertencia que se debe atender. Dar click en **Answer Question**
 (2), cuando la VM tiene en el CD/DVD un sistema de archivos montado
 previamente.
 
@@ -54,7 +53,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Se presenta la siguiente pregunta para aceptar cambios en el medio de
-CD/DVD, seleccionar **Yes** (1), **ANSWER**.
+CD/DVD, seleccionar **Yes** (1). ANSWER.
 
 (2)<img src="./media/image4.png" style="width:4.23966in;height:1.75434in"
 alt="A screenshot of a computer Description automatically generated" />
