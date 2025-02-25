@@ -26,7 +26,7 @@ utilizar como:
 Abrir una instancia de Firefox, seleccionar el acceso rápido de
 **vCenter Server**.
 
-Para aumentar la memoria en la vista de **Hosts & Clusters** (1), click
+Para aumentar la memoria en la vista de **Hosts & Clusters** (1), dar click
 en el folder **Production Servers** (2). Seleccionar la VM **VM_01**
 (3), en el menú contextual seleccionar **Edit Settings** (4).
 
@@ -46,7 +46,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Con la **VM_01** seleccionada y la pestaña **Summary** activa es posible
-visualizar estos cambios, memoria y disco.
+visualizar estos cambios, en memoria y disco.
 
 <img src="./media/image3.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -54,7 +54,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Solicitar la consola de la **VM_01** en la vista de **Hosts &
-Clusters** (1), click en el folder **Production Servers** (2),
+Clusters** (1), dar click en el folder **Production Servers** (2),
 seleccionar la VM **VM_01** (3), click en **LAUNCH WEB CONSOLE** (4).
 
 <img src="./media/image4.png" style="width:5.88889in;height:3.3125in"
@@ -86,7 +86,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 ### Actividad 2. Cambio de nombre de una VM
 
-En la vista de **Hosts & Clusters** (1), click en el folder **Production
+En la vista de **Hosts & Clusters** (1), dar click en el folder **Production
 Servers** (2). Seleccionar la VM **VM_01** (3), en el menú contextual
 seleccionar **Rename**.
 
@@ -94,7 +94,7 @@ seleccionar **Rename**.
 
 <br/>
 
-El nuevo nombre será **Linux_01** (1), **OK** (2).
+El nuevo nombre será **Linux_01** (1). OK (2).
 
 <img src="./media/image9.png" style="width:3.44531in;height:1.4327in"
 alt="A screenshot of a computer Description automatically generated" />
