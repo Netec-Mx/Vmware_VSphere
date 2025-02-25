@@ -1,7 +1,7 @@
 # Práctica 10. Agregación de recursos en las VMs
 
 ## Objetivos de la práctica:
-- Agregar un disco con formato Thick Provision Eager Zeroed
+- Agregar un disco con formato Thick Provision Eager Zeroed.
 
 
 ## Duración aproximada:
@@ -11,9 +11,6 @@
 > Revisión 1.1 2024
 
 ## Instrucciones
-
-<br/>
-<br/>
 
 ### Actividad 1. Agregar un disco con formato Thick Provision Eager Zeroed
 
@@ -31,9 +28,9 @@ Abrir una instancia de Firefox, seleccionar el acceso rápido de
 <br/>
 
 Con el propósito de explorar la agregación de recursos, encender la
-**VM_01** en la vista de **Hosts & Clusters** (1), click en el folder
-**Production Servers** (2), seleccionar la VM **VM_01** (3) con el menú
-contextual seleccionar **Power** (4) y **Power On** (5).
+**VM_01** en la vista de **Hosts & Clusters** (1), dar click en el folder
+**Production Servers** (2). Seleccionar la VM **VM_01** (3), en el menú
+contextual, seleccionar **Power** (4) y **Power On** (5).
 
 <img src="./media/image1.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -60,15 +57,14 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Para agregar un disco, click **ADD NEW DEVICE** (1). Dar click **Hard Disk**
-(2).
+Para agregar un disco, dar click en **ADD NEW DEVICE** (1) y seleccionar **Hard Disk** (2).
 
 <img src="./media/image4.png" style="width:3.63802in;height:4.06813in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Expandir la sección **New Hard Disk**, determinar un 1 GB de tamaño (1),
+Expandir la sección **New Hard Disk**, determinar un 1 GB de tamaño (1) y
 establecer provisionamiento **Thick Provision Eager Zeroed** (2).
 
 <img src="./media/image5.png" style="width:2.86719in;height:3.2045in"
@@ -76,7 +72,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Ahora tenemos dos discos en la VM_01
+Ahora tenemos dos discos en la **VM_01**.
 
 <img src="./media/image6.png"
 style="width:3.49219in;height:3.07727in" />
@@ -84,9 +80,8 @@ style="width:3.49219in;height:3.07727in" />
 <br/>
 
 Para examinar los archivos relacionados con los discos, en la vista de
-Almacenamiento (1), click en **Production Datacenter**, click en
-**Storage_ESXI01** (3), click en pestaña Files. Dar click en directorio
-**VM_01**, se tienen a la vista los archivos correspondientes **vmdk**
+Almacenamiento (1), dar click en **Production Datacenter** y seleccionar
+**Storage_ESXI01** (3). Dar click en la pestaña **Files** y seleccionar **VM_01** en el directorio, se tienen a la vista los archivos correspondientes **vmdk**
 (6).
 
 <img src="./media/image7.png" style="width:5.88889in;height:3.3125in"
