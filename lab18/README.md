@@ -20,7 +20,7 @@
 
 ## Instrucciones
 
-### Actividad 1. Activar una máquina virtual, reconocer su estado actua
+### Actividad 1. Activar una máquina virtual, reconocer su estado actual
 
 Utilizar en su sistema la herramienta de “**Conexión a escritorio
 remoto**” con la dirección y puerto que le proporcionará su instructor;
@@ -45,7 +45,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Usar en el acceso el password `VMware1!`
+Usar en el acceso el password `VMware1!`.
 
 <img src="./media/image2.png" style="width:5.88889in;height:3.18958in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -111,7 +111,7 @@ alt="A screenshot of a computer Description automatically generated" />
 Se presenta la ventana de configuración del Snapshot.
 
 Proporcionar como nombre: **Desktop without browsers in bar** (1),
-incluir en el Snapshot el registro de memoria de la VM (2), **CREATE**
+incluir en el Snapshot el registro de memoria de la VM (2). **CREATE**
 (3).
 
 <img src="./media/image8.png" style="width:3.73177in;height:2.70136in"
@@ -132,7 +132,7 @@ alt="A screenshot of a computer Description automatically generated" />
 ### Actividad 6. Crear un Snapshot como 3er punto de retorno
 
 En secuencia, crear un tercer Snapshot. En la vista de **Host & Clusters**
-(1), seleccionar la máquina virtual **Linux_01**, tomar un tercer
+(1), seleccionar la máquina virtual **Linux_01** y tomar un tercer
 Snapshot usando el menú contextual **Take Snapshot** (5).
 
 <img src="./media/image10.png" style="width:5.88889in;height:3.3125in"
@@ -214,7 +214,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-A manera de ejemplo en la historia de Snapshots podemos ir al primer
+A manera de ejemplo, en la historia de Snapshots podemos ir al primer
 punto de retorno.
 
 Esto presenta a la Linux_01 en su estado inicial si aplicamos el comando
@@ -226,7 +226,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Siempre, ante lo que implica llevar una VM a un estado de retorno, se
-muestra la correspondiente notificación a manera de advertencia dado que
+muestra la  notificación correspondiente a manera de advertencia, dado que
 se perderán los últimos cambios no registrados.
 
 <img src="./media/image19.png" style="width:3.03385in;height:1.55114in"
