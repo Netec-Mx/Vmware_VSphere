@@ -2,10 +2,10 @@
 
 ## Objetivos de la práctica:
 
-- Crear un cluster.
+- Crear un clúster.
 - Establecer condiciones funcionales con DRS.
-- Integrar Hosts al cluster.
-- Activar el DRS en el cluster, Operación manual de DRS.
+- Integrar Hosts al clúster.
+- Activar el DRS en el clúster, operación manual de DRS.
 - Operación automática de DRS.
 
 ## Duración aproximada:
@@ -30,7 +30,7 @@ Abrir una instancia de Firefox, seleccionar el acceso rápido de
 **vCenter Server**.
 
 Para configurar y aprovechar los servicios distribuidos, habrá que crear
-un cluster.
+un clúster.
 
 Seleccionar el datacenter **Production Datacenter** (2).En el menú
 contextual, seleccionar la opción **New Cluster** (3).
@@ -40,7 +40,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Proporcionar el nombre al cluster como **Production Cluster** (2). No
+Proporcionar el nombre al clúster como **Production Cluster** (2). No
 activar ningún servicio.
 
 Desactivar la opción **Manage all host in the cluster with a single
@@ -53,7 +53,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Revisar la configuración del cluster, **Finish** (3).
+Revisar la configuración del clúster. Finish (3).
 
 <img src="./media/image3.png" style="width:4.3099in;height:3.22058in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -86,12 +86,9 @@ alt="A screenshot of a computer Description automatically generated" />
 
 ### Actividad 3. Integración de Hosts al cluster
 
-Integrar los servidores al cluster.
+Integrar los servidores al clúster.
 
-Arrastrar con el mouse el Host **Esxi_01** sobre el cluster **Production
-Cluster**.
-
-Arrastar con el mouse el Host **ESXi_02** sobre el cluster **Production
+Arrastrar con el mouse el Host **Esxi_01** sobre el clúster **Production
 Cluster**.
 
 <img src="./media/image6.png" style="width:5.88889in;height:3.3125in"
@@ -99,7 +96,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Observar que el cluster despliega los host y máquinas virtuales a la
+Observar que el clúster despliega los host y máquinas virtuales a la
 misma altura sin mostrar jerarquía entre ellos.
 
 Para ver que VMs están en cada Host, seleccionar un host y la pestaña de
@@ -111,9 +108,8 @@ Para ver que VMs están en cada Host, seleccionar un host y la pestaña de
 ### Tarea 4. Activación de DRS en el cluster, Operación manual de DRS
 
 Activar el servicio distribuido de DRS, en la vista de **Hosts &
-Clusters** (1). Seleccionar el cluster **Production Cluster** (2), click
-en la pestaña **Configure** (3), click en **vSphere DRS** (4), click en
-**EDIT** (5).
+Clusters** (1). Seleccionar el clúster **Production Cluster** (2), dar click
+en la pestaña **Configure** (3) y seleccionar **vSphere DRS** (4). **EDIT** (5).
 
 Asegurarse que las VMs estén apagadas para una mejor ilustración del
 servicio.
@@ -123,8 +119,8 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Activar el botón **vSphere DRS** (1). En **Automation Level**, del menú
-desplegable, seleccionar **Manual** (2), deslizar la barra de **Migration
+Activar el botón **vSphere DRS** (1). En **Automation Level** del menú
+desplegable, seleccionar **Manual** (2). Deslizar la barra de **Migration
 Threshold** al extremo derecho (muy agresivo) (3).
 
 <img src="./media/image8.png" style="width:3.65885in;height:3.09455in"
@@ -133,7 +129,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Se muestra la configuración deseada. Dejar otras opciones en su valor
-por default, **OK** (4).
+por default. OK (4).
 
 <img src="./media/image9.png" style="width:3.80693in;height:3.18663in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -144,7 +140,7 @@ Se despliega la configuración deseada de DRS en modo manual.
 
 Así vCenter no realiza movimiento de máquinas virtuales, solo presentará
 sugerencias bajo demanda al verificar si existe un desbalanceo de
-utilización de recursos en el cluster.
+utilización de recursos en el clúster.
 
 <img src="./media/image10.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -161,8 +157,8 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-En esta situación DRS recomienda ubicar la **Linux-01** en el host
-**ESXi_01**(1), **OK** (2) dado que todas las VMs están apagadas
+En esta situación, DRS recomienda ubicar la **Linux-01** en el host
+**ESXi_01**(1). OK (2), dado que todas las VMs están apagadas
 
 <img src="./media/image12.png" style="width:4.3911in;height:2.67379in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -170,7 +166,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Al encender la máquina **Linux_02** propone encenderla en el host
-**ESXi_01** (1), todavía **OK** (2).
+**ESXi_01** (1). OK (2).
 
 <img src="./media/image13.png" style="width:3.7526in;height:2.30358in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -183,7 +179,7 @@ propone ubicarla en el host **ESXi_02** (1) para repartir la carga.
 Nos da la opción de encenderla también en el host **ESXi_01** bajo
 nuestra instrucción.
 
-Aceptar la opción propuesta host **ESXi_02**, **OK** (2).
+Aceptar la opción propuesta host **ESXi_02**. OK (2).
 
 <img src="./media/image14.png" style="width:4.12526in;height:2.49149in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -192,19 +188,19 @@ alt="A screenshot of a computer Description automatically generated" />
 
 Al encender la VM **Linux_04** se presenta una situación similar (1).
 
-Seleccionar la opción por default de **ESXi_02**, **OK** (2).
+Seleccionar la opción por default de **ESXi_02**. OK (2).
 
 <img src="./media/image15.png" style="width:4.17448in;height:2.56255in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Al activar la **Linux_05** cambia la propuesta sobre el host
-**ESXi_01**, (1).
+Al activar la **Linux_05**, cambia la propuesta sobre el host
+**ESXi_01** (1).
 
 Claramente, sin tener referencia de las aplicaciones que consumirán
 recursos trata de alternar las propuestas de ubicación en las máquinas al
-encender **OK** (2).
+encender. OK (2).
 
 <img src="./media/image16.png" style="width:4.23938in;height:2.58767in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -213,10 +209,10 @@ alt="A screenshot of a computer Description automatically generated" />
 
 Para identificar en que host se han ubicado las VMs que se han encendido.
 
-Con un host **ESXi_01** (1) seleccionado, click en la pestaña **VMs**
+Con un host **ESXi_01** (1) seleccionado, dar click en la pestaña **VMs**
 (2). Tenemos dos VMs encendidas (3). Notar la VM de servicios que se ha
 creado también y se ha ubicado en este host **ESXi_01**, el nombre de la
-misma inicia con **vCLS** (4)
+misma inicia con **vCLS** (4).
 
 <img src="./media/image17.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -233,7 +229,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar el cluster **Production Cluster**.
+Seleccionar el clúster **Production Cluster**.
 
 En la pestaña de Summary se presenta la estadística de calificación de
 DRS con un buen score de 99%.
@@ -282,7 +278,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 Ver que propone **DRS**.
 
-Click en la sección de DRS en la opción **Recommendations**.
+Dar click en la sección de DRS en la opción **Recommendations**.
 
 Observar la recomendación de **DRS**, migrar la **Linux_05 de ESXi_01 al
 ESXi_02** (2).
@@ -341,7 +337,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 Seleccionamos la opción.
 
-**Change compute resource only** (2), **Next** (3).
+**Change compute resource only** (2). Next (3).
 
 <img src="./media/image31.png" style="width:3.58351in;height:2.51401in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -351,14 +347,14 @@ alt="A screenshot of a computer Description automatically generated" />
 Seleccionamos el host destino
 
 Pretendemos tener todas las VMs trabajando en un sólo host **ESXi_01**
-(2), **Next** (3).
+(2). Next (3).
 
 <img src="./media/image32.png" style="width:3.53532in;height:2.68101in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar la misma red destino (2), **Next** (3).
+Seleccionar la misma red destino (2). Next (3).
 
 <img src="./media/image33.png" style="width:4.13802in;height:3.1265in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -366,14 +362,14 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Seleccionar la opción **Schedule vMotion with high priority
-(recommended)** (2), **Next** (3).
+(recommended)** (2). Next (3).
 
 <img src="./media/image34.png" style="width:4.26116in;height:3.19983in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Revisar la información de migración, **Finish** (3).
+Revisar la información de migración. Finish (3).
 
 <img src="./media/image35.png" style="width:4.1224in;height:3.12997in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -405,9 +401,8 @@ alt="A screenshot of a computer Description automatically generated" />
 ### Actividad 3. Operación automática de DRS
 
 Reconfigurar DRS.
-Seleccionar el cluster **Production Cluster** (2), click en la pestaña
-**Configure** (3), click en opción **vSphere DRS** (4), click en
-**EDIT** (5).
+Seleccionar el clúster **Production Cluster** (2), dar click en la pestaña
+**Configure** (3), seleccionar la opción **vSphere DRS** (4), dar click en **EDIT** (5).
 
 <img src="./media/image39.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -437,5 +432,5 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Ahora en el cluster DRS periódicamente balanceará la carga, ofreciendo
+Ahora en el clúster DRS periódicamente balanceará la carga, ofreciendo
 un mejor desempeño en general
