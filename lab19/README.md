@@ -76,8 +76,8 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-En el directorio principal seleccionar el ISO **Classfiles.ISO** (2),
-**OK** (3).
+En el directorio principal, seleccionar el ISO **Classfiles.ISO** (2).
+OK (3).
 
 <img src="./media/image6.png" style="width:3.26561in;height:3.37934in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -92,12 +92,12 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Adicionalmente, en la misma caja de diálogo expandir la sección de CPU y
+Adicionalmente, en la misma caja de diálogo, expandir la sección de CPU y
 establecer **Scheduling Affinity (2)** con valor **0**. Esto significa
 que todas las operaciones de la máquina virtual se realizarán únicamente
-en el **CPU Físico 0**. Así, entonces se impone una restricción de
+en el **CPU Físico 0**. De esta manera se impone una restricción de
 recursos. En donde el hipervisor no comparte los recursos de todos los
-cpus físicos. **OK** (3).
+CPUs físicos. OK (3).
 
 <img src="./media/image8.png" style="width:3.50781in;height:3.92458in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -215,7 +215,7 @@ Se nota la diferencia de número de operaciones, ahora la VM **Linux_01**
 tarda menos tiempo en realizar las operaciones.
 
 Se está asignando el tiempo de operación del CPU 0 de forma diferente
-para cada máquina
+para cada máquina.
 
 <img src="./media/image20.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
