@@ -29,8 +29,8 @@ Abrir una instancia de Firefox, seleccionar el acceso rápido de
 Para activar el servicio distribuido de HA.
 
 Seleccionar en la vista de **Host & Clusters** (1) el cluster
-**Production Center** (2). Hacer click en la pestaña Configure (3), click en
-**vSphere Availability** (4)**,** click en **EDIT** (5).
+**Production Center** (2). Hacer click en la pestaña Configure (3) y seleccionar
+**vSphere Availability** (4). Dar click en **EDIT** (5).
 
 <img src="./media/image1.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -54,7 +54,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 Averiguar que elementos están protegidos con el servicio.
 
-Seleccionar el cluster (2), click en la pestaña **Monitor** (3). En la
+Seleccionar el clúster (2), dar click en la pestaña **Monitor** (3). En la
 sección de **vSphere HA** seleccionar **Summary** (4), notar que el host
 primario es el **Host –ESXi_02** (5), hay dos VMs protegidas.
 
@@ -69,8 +69,8 @@ alt="A screenshot of a computer Description automatically generated" />
 Para esquemas de protección en HA se pueden utilizar los DataStores de
 Hearbeat.
 
-Para identificarlos seleccionar el **cluster** (2). Hacer click en la pestaña de
-**Monitor** (3), click en **Hearbeat** (4). Tenemos dos datastores de
+Para identificarlos, seleccionar el **clúster** (2). Hacer click en la pestaña de
+**Monitor** (3) y seleccionar **Hearbeat** (4). Tenemos dos datastores de
 hearbeat **ICM_Datastore** y **ISCSI_Datastore** (5).
 
 <img src="./media/image5.png" style="width:5.88889in;height:3.3125in"
@@ -81,8 +81,8 @@ alt="A screenshot of a computer Description automatically generated" />
 En la activación del servicio podemos tener problemas de configuración,
 a manera de ejemplo se notan estos dos casos:
 
-Seleccionar el cluster **Production Clusters** (2). Hacer click en **Monitor**
-(3), click en **Configuration Issues** (4).
+Seleccionar el clúster **Production Clusters** (2). Dar click en **Monitor**,
+(3) seleccionar **Configuration Issues** (4).
 
 Observar el mensaje de falta de red de redundancia en ambos hosts.
 
@@ -108,13 +108,13 @@ Para resolver esta alerta y proporcionar mayor protección a HA.
 Activar el servicio de administración en una red que tenga ya un puerto
 Vmkernel activo, lo haremos con el puerto de vMotion.
 
-Seleccionar el **Host Esxi_01** (1), click en la pestaña **Configure**
-(3), click en **Virtual Swithes** (4).
+Seleccionar el **Host Esxi_01** (1), dar click en la pestaña **Configure**
+(3), seleccionar **Virtual Swithes** (4).
 
 Expandir el vSwitch2. Hacer click en los puertos suspensivos del puerto
 Vmkernel **vMotion** (5).
 
-Click en **Edit Settings** (6).
+Dar click en **Edit Settings** (6).
 
 <img src="./media/image8.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -122,7 +122,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Habilitar el servicio de **Managment** (1) en el puerto **VMkernel** que
-actualmente proporciona el servicio de **vMotion**, OK (2).
+actualmente proporciona el servicio de **vMotion**. OK (2).
 
 1.  <img src="./media/image9.png" style="width:4.61424in;height:2.80642in"
     alt="A screenshot of a computer Description automatically generated" />
@@ -149,9 +149,9 @@ alt="A screenshot of a computer Description automatically generated" />
 Realizar la misma operación en el host **Esxi_02**.
 
 Seleccionar el host **ESX_02** en el inventario (2). Hacer click en
-**Configure** (3). Click en **Virtual switches** (4). Expandir el
-**vSwitch2** (5), click en los puntos suspensivos del puerto Vmkernel de
-**vMotion** (6), click en **EDIT Settings** (7).
+**Configure** (3) y seleccionar **Virtual switches** (4). Expandir el
+**vSwitch2** (5), dar click en los puntos suspensivos del puerto Vmkernel de
+**vMotion** (6) y dar click en **EDIT Settings** (7).
 
 <img src="./media/image12.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -201,7 +201,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Para simular una falla, reiniciar el Host. Seleccionar el host **Esxi_02**
-(2), en el menú contextual click en **Power** (3), seleccionar **Reboot** (4).
+(2), en el menú contextual dar click en **Power** (3) y seleccionar **Reboot** (4).
 Nota: No usar **Shut Down**
 
 <img src="./media/image17.png" style="width:5.88889in;height:3.3125in"
@@ -260,7 +260,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 En el host **ESXI_02** se muestran activas las máquinas virtuales **Linux_03,
 Linux_04** y una VM de servicios, el datacenter efectivamente está
-protegido con HA y DRS vigila el rendimiento del cluster.
+protegido con HA y DRS vigila el rendimiento del clúster.
 
 <img src="./media/image24.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
