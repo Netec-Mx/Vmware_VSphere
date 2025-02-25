@@ -67,7 +67,7 @@ Seleccionar en el menú contextual de la VM **Linux_01** la opción
 
 <br/>
 
-Seleccionar **Change storage only** (2), **NEXT** (3).
+Seleccionar **Change storage only** (2). Next (3).
 
 <img src="./media/image6.png" style="width:4.02865in;height:3.0029in" />
 
@@ -80,14 +80,14 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar el port group **dpg-SA-Production** (1), **OK**(2).
+Seleccionar el port group **dpg-SA-Production** (1). OK (2).
 
 <img src="./media/image8.png" style="width:3.26823in;height:3.18693in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Asegurarse de que la configuración quede como se ilustra click en **OK** (4).
+Asegurarse de que la configuración quede como se ilustra, dar click en OK (4).
 
 <img src="./media/image9.png" style="width:2.81788in;height:3.1842in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -111,7 +111,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Click en **Apps** (1).
+Dar click en **Apps** (1).
 
 <img src="./media/image12.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -149,15 +149,15 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar **Change storage only** (2), **NEXT** (3).
+Seleccionar **Change storage only** (2). Next (3).
 
 <img src="./media/image17.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar el nuevo datastore, click en **iSCSI-Datastore** (3), Observe
-que puede seleccionar el tipo de disco de la VM a obtener (2).
+Seleccionar el nuevo datastore, dar click en **iSCSI-Datastore** (3). Observar
+que se puede seleccionar el tipo de disco de la VM a obtener (2).
 
 <img src="./media/image18.png"
 style="width:5.88889in;height:3.3125in" />
@@ -171,7 +171,7 @@ style="width:5.88889in;height:3.3125in" />
 
 <br/>
 
-Revisar la configuración final (2), **FINISH** (3).
+Revisar la configuración final (2). Finish (3).
 
 <img src="./media/image20.png"
 style="width:5.88889in;height:3.3125in" />
@@ -250,15 +250,15 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar la opción **Change both compute resource and storage** (2),
-**NEXT** (3).
+Seleccionar la opción **Change both compute resource and storage** (2).
+Next (3).
 
 <img src="./media/image29.png" style="width:4.27865in;height:3.23661in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar el host **ESXi_01** como destino (2), **NEXT** (3).
+Seleccionar el host **ESXi_01** como destino (2). Next (3).
 
 <img src="./media/image30.png" style="width:4.30469in;height:3.22054in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -266,28 +266,28 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Seleccionar **Thin Provision** (2) y **iSCSI-Datastore** (3) como tipo
-de disco y datastore destino. **Next** (4).
+de disco y datastore destino. Next (4).
 
 <img src="./media/image31.png" style="width:4.42448in;height:3.31017in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Determinar como port group **dpg-SA-Production** (2), **Next** (3).
+Determinar como port group **dpg-SA-Production** (2). Next (3).
 
 <img src="./media/image32.png" style="width:4.73698in;height:3.56151in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar **Schedule vMotion with High Priority** (2), **Next** (3).
+Seleccionar **Schedule vMotion with High Priority** (2). Next (3).
 
 <img src="./media/image33.png" style="width:4.73698in;height:3.57905in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Revisar la configuración, aceptar **FINISH** (3)
+Revisar la configuración, aceptar. Finish (3).
 
 <img src="./media/image34.png" style="width:4.65885in;height:3.47265in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -301,10 +301,10 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Para asegurar que los servicios de DRS funcionen asegurar que todas las
-VMs se pueden mover de un Host a otros, intente que todas las VMs se
-pueden mover al host **ESXI_01** y al **host ESXi_02, como se observa en
-las siguientes dos imágenes.**
+Para asegurar que los servicios de DRS funcionen, asegurar que todas las
+VMs se pueden mover de un host a otro. Probar que todas las VMs se
+pueden mover al host **ESXI_01** y al host **ESXi_02**, como se observa en
+las siguientes dos imágenes.
 
 <br/>
 
