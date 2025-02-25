@@ -35,7 +35,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Seleccionar **Actions** (1), click en **Edit Settings** (2).
+Seleccionar **Actions** (1). Dar click en **Edit Settings** (2).
 
 <img src="./media/image2.png" style="width:5.88889in;height:3.3125in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -44,10 +44,10 @@ alt="A screenshot of a computer Description automatically generated" />
 
 Se despliega la caja de configuración de la librería de contenido, en
 ella, activar la publicación **Enable publishing**, con esto se genera
-un URL de Subscripción (2), copiar esta información, click en **COPY
-LINK** (3), activar la opción **Enable user authentication for Access to
-this content library** (4), proporcionar el password `VMware1!` (5),
-click **OK** (6).
+un URL de Subscripción (2), copiar esta información dando click en **COPY
+LINK** (3). Activar la opción **Enable user authentication for Access to
+this content library** (4), proporcionar el password `VMware1!` (5).
+OK (6).
 
 <img src="./media/image3.png" style="width:4.10538in;height:3.12499in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -60,7 +60,7 @@ una librería publicada.
 Proceder a crear una librería de subscripción, que típicamente la
 implementariamos en otro vCenter, incluso en un sitio remoto.
 
-Sin embargo, lo podremos realizar en este mismo vCenter, click en
+Sin embargo, lo podremos realizar en este mismo vCenter, dar click en
 **CREATE** (2).
 
 <img src="./media/image4.png" style="width:5.88889in;height:3.3125in"
@@ -69,7 +69,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 Proporcionar el nombre **Subscribed-Library** (2), seleccionar como
-vCenter **sa-vcsa-01.vclass.local** (3), click **NEXT** (4).
+vCenter **sa-vcsa-01.vclass.local** (3). Next (4).
 
 <img src="./media/image5.png"
 style="width:4.02708in;height:3.37361in" />
@@ -80,7 +80,7 @@ En la caja de diálogo de configuración de la librería, seleccionar
 **Subscribed content library** (2), pegar la URL de la librería local
 publicada (3). Habilitar **Enable authentication**, establecer el
 password `VMware1!` (4), la descarga de contenido establecerla como
-**When needed** (5), **NEXT** (6).
+**When needed** (5). Next (6).
 
 <img src="./media/image6.png" style="width:4.08976in;height:3.36728in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -88,14 +88,14 @@ alt="A screenshot of a computer Description automatically generated" />
 <br/>
 
 En el paso **Add Storage**, seleccionar el datastore **ICM8-Datastore**
-(2), **NEXT** (3).
+(2). NEXT (3).
 
 <img src="./media/image7.png" style="width:4.05851in;height:3.37539in"
 alt="A screenshot of a computer Description automatically generated" />
 
 <br/>
 
-Revisar la configuración final, aceptar **FINISH** (2).
+Revisar la configuración final, aceptar. Finish (2).
 
 <img src="./media/image8.png" style="width:4.07934in;height:3.37252in"
 alt="A screenshot of a computer Description automatically generated" />
